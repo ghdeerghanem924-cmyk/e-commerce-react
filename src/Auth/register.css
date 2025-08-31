@@ -1,0 +1,99 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.register-title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.register-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  font-size: 14px;
+    height: 2.5rem;
+}
+
+.form-input:focus {
+  border-color: var(--secondary-color);
+  outline: none;
+}
+
+
+.submit-btn,
+.login-btn {
+  padding: 0px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+    height: 2.5rem;
+}
+
+.submit-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.login-btn {
+  background-color: var(--primary-color);
+  margin-top: 5px;
+
+}
+
+.login-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.toggle-password-btn {
+  background-color: #e0e7ff;
+  color: var(--primary-color);
+  width: 100%;
+  padding: 0px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.error-message {
+  margin: 5px 0 0 0;
+  color: red;
+  font-size: 13px;
+}
+
+
+.login-redirect {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-text {
+  font-size: 14px;
+  color: #333;
+}

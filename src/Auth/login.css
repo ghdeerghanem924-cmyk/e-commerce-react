@@ -1,0 +1,107 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.login-form {
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+
+.login-container .form-group label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+}
+
+.login-container .form-input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  height: 2.5rem;
+}
+
+.login-container .form-input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.login-container .password-input {
+  position: relative;
+  display: flex;
+}
+
+ .login-container .toggle-btn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.login-container .error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.login-container .submit-btn {
+  width: 100%;
+  padding: 0 12px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+  height: 3rem;
+}
+
+.login-container .submit-btn:hover {
+  background-color: #2c3e50;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-btn {
+  margin-top: 10px;
+  padding: 0px 20px;
+  background-color: transparent;
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+    height: 3rem;
+}
+
+.register-btn:hover {
+  background-color: #2c3e50;
+  color: white;
+}
